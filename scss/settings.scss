@@ -1,0 +1,44 @@
+// 変数//
+$main-color: #664D46;
+$sub-color: #D7FFAC;
+$accent-color: #FFE1DB;
+$font-large: 80px;
+
+//mixin//
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin h2($color) {
+  font-size: $font-large;
+  color: $color;
+  text-align: center;
+  padding: 50px;
+}
+
+@mixin btn {
+  background-color: $main-color;
+  max-width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  &:hover{
+    background-color: lighten($main-color, 20%);
+  }
+  }
+
+  @mixin hover($color) {
+
+      background-color: lighten($color,10%)}
+
+      @mixin border-b{
+        border-bottom: 2px solid $accent-color;
+      }
+  

@@ -1,0 +1,45 @@
+@media screen and (max-width: 480px) {
+
+#top{
+  width: 100%;
+}
+  #top img{
+  width: 100%;
+}
+/*ヘッダー*/
+
+#top #header .header_wrapper .top-nav ul{
+  display: none;
+}
+#header .hamburger-nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
